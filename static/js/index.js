@@ -165,7 +165,7 @@ const spec1 = {
     }],
     "layer": [{
             "data": {
-                "url": "data/states.json",
+                "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/states.json",
                 "format": {
                     "type": "topojson",
                     "feature": "states"
@@ -190,7 +190,7 @@ const spec1 = {
                     "lookup": "id",
                     "from": {
                         "data": {
-                            "url": "data/states.json",
+                            "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/states.json",
                             "format": {
                                 "type": "topojson",
                                 "feature": "states"
@@ -822,3 +822,4 @@ vegaEmbed('#vis5', spec4, {
     }).then(function(result) {})
 
     .catch(console.error);
+
