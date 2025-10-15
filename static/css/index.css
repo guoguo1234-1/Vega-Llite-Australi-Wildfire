@@ -1,0 +1,125 @@
+body {
+    background-image: url('https://img3.wallspic.com/crops/2/4/9/3/0/103942/103942-zi_ben_shi-qin_ai_de_hai_gang-da_dou_hui-shui_yun-ge_ju_yuan-3840x2160.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    background: #EC8B6E;
+    border-radius: 8px;
+
+    h1 {
+        font-weight: bold;
+    }
+}
+
+.des {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.vis {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#vis1,
+#vis2,
+#vis3,
+#vis4,
+#vis5 {
+    border-radius: 8px;
+    width: 100%;
+    height: 450px;
+    background: rgba(20, 20, 20, 0.05);
+}
+
+.desinfo {
+    border-radius: 8px;
+    width: 100%;
+    height: 450px;
+    background: rgba(20, 20, 20, 0.05);
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+		
+		@media (max-width: 768px) {
+			.desinfo, .des {
+				height: auto;
+			}
+			.vega-bindings {
+				flex-wrap: wrap !important;
+			}
+			.vega-embed {
+				height: auto !important;
+			}
+		}
+
+#vis3 canvas {
+    width: 100% !important;
+    height: 450px !important;
+}
+
+canvas {
+    /*padding: 1rem*/
+    ;
+}
+
+.vega-bindings {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.vega-bindings label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.vega-bindings select {
+    padding: 2px 6px;
+    height: 32px;
+}
+
+#input {
+    padding: 0.5rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    height: auto;
+
+}
+
+#input canvas {
+    display: none;
+}
+
+#page {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+}
