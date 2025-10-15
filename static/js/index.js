@@ -47,11 +47,11 @@ const spec = {
         }
     ],
     "data": {
-        "url": "data/fire_archive_M6_96619.csv"
+        "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/fire_archive_M6_96619.csv"
     },
     "layer": [{
             "data": {
-                "url": "data/states.json",
+                "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/states.json",
                 "format": {
                     "type": "topojson",
                     "feature": "states"
@@ -152,7 +152,7 @@ const spec1 = {
     "height": 450,
     "background": "transparent",
     "data": {
-        "url": "data/Historical_Wildfires.csv"
+        "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/Historical_Wildfires.csv"
     },
     "params": [{
         "name": "monthParam",
@@ -270,7 +270,7 @@ const spec2 = {
     "height": 450,
     "background": "transparent",
     "data": {
-        "url": "data/fire_archive_M6_96619.csv"
+        "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/fire_archive_M6_96619.csv"
     },
     "params": [{
         "name": "satelliteParam",
@@ -531,7 +531,7 @@ const spec3 = {
     "height": 400,
     "background": "transparent",
     "data": {
-        "url": "data/Historical_Wildfires.csv"
+        "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/Historical_Wildfires.csv"
     },
 	// Data transform
     "transform": [{
@@ -663,7 +663,7 @@ const spec4 = {
     "height": 300,
     "background": "transparent",
     "data": {
-        "url": "data/animals.csv"
+        "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/animals.csv"
     },
     "layer": [{
         "mark": {
@@ -734,7 +734,7 @@ const spectooltip = {
     "height": 160,
     "background": "transparent",
     "data": {
-        "url": "data/Historical_Wildfires.csv"
+        "url": "https://github.com/guoguo1234-1/Vega-Llite-Australi-Wildfire/blob/main/data/Historical_Wildfires.csv"
     },
     "transform": [{
             "filter": "datum.Year == 2019",
@@ -820,4 +820,5 @@ vegaEmbed('#vis4', spec3, {
 vegaEmbed('#vis5', spec4, {
         actions: true
     }).then(function(result) {})
+
     .catch(console.error);
