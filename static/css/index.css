@@ -55,17 +55,17 @@ body {
     font-size: 16px;
 }
 		
-		@media (max-width: 768px) {
-			.desinfo, .des {
-				height: auto;
-			}
-			.vega-bindings {
-				flex-wrap: wrap !important;
-			}
-			.vega-embed {
-				height: auto !important;
-			}
-		}
+@media (max-width: 768px) {
+	.desinfo, .des {
+		height: auto !important;
+	}
+	.vega-bindings {
+		flex-wrap: wrap !important;
+	}
+	.vega-embed {
+		height: auto !important;
+	}
+}
 
 #vis3 canvas {
     width: 100% !important;
@@ -122,4 +122,5 @@ canvas {
     margin: auto;
     padding: 50px;
     padding-top: 35px;
+
 }
