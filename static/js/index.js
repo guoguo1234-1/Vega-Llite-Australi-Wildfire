@@ -65,7 +65,7 @@ const spec = {
             "encoding": {
                 "color": {
                     "value": {
-                        "signal": "daynightParam != 'N' ? 'rgba(0,0,0,0.3)' : 'rgba(0,0,0,0.6)'"
+                        "signal": "daynightParam != 'N' ? 'rgba(0,0,0,0.3)' : 'rgba(0,0,0,0.8)'"
                     } //"rgba(0,0,0,0.3)"
                 }
             }
@@ -104,7 +104,7 @@ const spec = {
                         "signal": "vParam == 'brightness' ? 'Fire brightness' : 'Fire frp'"
                     },
                     "scale": {
-                        "scheme": "Reds"
+                        "scheme": { "signal": "daynightParam != 'N' ? 'Reds' : ['yellow', 'red']" }
                     },
                 },
                 "tooltip": [{
@@ -822,5 +822,6 @@ vegaEmbed('#vis5', spec4, {
     }).then(function(result) {})
 
     .catch(console.error);
+
 
 
