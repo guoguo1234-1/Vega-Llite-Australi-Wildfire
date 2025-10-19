@@ -104,7 +104,7 @@ const spec = {
                         "signal": "vParam == 'brightness' ? 'Fire brightness' : 'Fire frp'"
                     },
                     "scale": {
-                        "scheme": { "signal": "daynightParam != 'N' ? 'Reds' : ['yellow', 'red']" }
+                        "scheme": { "signal": "daynightParam != 'N' ? 'Reds' : ['rgb(255,255,153)', 'red']" }
                     },
                 },
                 "tooltip": [{
@@ -822,6 +822,7 @@ vegaEmbed('#vis5', spec4, {
     }).then(function(result) {})
 
     .catch(console.error);
+
 
 
 
